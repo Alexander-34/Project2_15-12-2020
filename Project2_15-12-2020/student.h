@@ -3,7 +3,11 @@ using namespace std;
 class student {
 	string name;
 	int age;
-	string group;
+	string num_group;
 public:
-	student() {};
+	student() {
+		name = "";
+		age = 0;
+		num_group = "";
+	};
 };
