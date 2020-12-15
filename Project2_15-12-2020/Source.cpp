@@ -3,7 +3,7 @@
 #include <vector>
 #include <algorithm>
 #include <random>
-
+#include "student.h"
 using namespace std;
 int main()
 {
@@ -16,4 +16,6 @@ int main()
 	for (int i = 0; i < abc.size(); ++i)
 		cout << abc[i] << " ";
 	cout << endl;
+	student group1[20];
+
 }
